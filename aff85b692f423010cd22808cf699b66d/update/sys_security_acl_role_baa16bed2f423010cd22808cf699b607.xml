@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 17:54:21</sys_created_on>
+        <sys_id>baa16bed2f423010cd22808cf699b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_675990_aceeso_sa_solicitudes.x_675990_aceeso_sa.solicitudes_user</sys_name>
+        <sys_package display_value="Aceeso Salas" source="x_675990_aceeso_sa">aff85b692f423010cd22808cf699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</sys_scope>
+        <sys_security_acl display_value="x_675990_aceeso_sa_solicitudes">faa16bed2f423010cd22808cf699b604</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_baa16bed2f423010cd22808cf699b607</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 17:54:21</sys_updated_on>
+        <sys_user_role display_value="x_675990_aceeso_sa.solicitudes_user" name="x_675990_aceeso_sa.solicitudes_user">6aa127ed2f423010cd22808cf699b63b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>numero_invitados</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide section invitados</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+	//var sections = g_form.getSections();
+	
+	return;   
+   }
+		if(newValue != oldValue){
+		clearSections();
+	}
+	
+	function clearSections() {
+		for (var k = 1; k<=3; k++) {
+			g_form.setSectionDisplay('invitado_' + k.toString(), false);
+			
+			
+		}
+		
+	}
+	clearSections();	
+	var numInvitados = parseInt(g_form.getValue('numero_invitados' ));
+	if (numInvitados > 0) {
+		for (var i = 1; i<=numInvitados; i++) {
+			g_form.setSectionDisplay('invitado_' + i.toString(), true);
+		}
+	}
+	if(isLoading && !g_form.isNewRecord()){
+		g_form.setValue('numero_invitados', numInvitados);
+		}
+}
+	
+   //Type appropriate comment here, and begin script below
+   
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-25 23:27:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>679f28c02f563010cd22808cf699b6bb</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Hide section invitados</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aceeso Salas" source="x_675990_aceeso_sa">aff85b692f423010cd22808cf699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</sys_scope>
+        <sys_update_name>sys_script_client_679f28c02f563010cd22808cf699b6bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-02 17:00:41</sys_updated_on>
+        <table>x_675990_aceeso_sa_solicitudes</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

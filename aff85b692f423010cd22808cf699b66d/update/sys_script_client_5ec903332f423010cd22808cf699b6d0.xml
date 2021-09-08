@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Politicas y lineamientos</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	var TipoSolic=g_form.getValue('tipo_solicitud');
+	
+if (TipoSolic== 'Documentacion y Reportes' ) {
+   return confirm('LINEAMIENTOS DEL CENTRO DE DATOS\n\n-No se permite introducir alimentos ni bebidas.\n- No se permite fumar.\n- No se permite el acceso sin cubre zapatos.\n- Bajo ninguna circunstancia, se permitirá; el acceso a personas bajo los efectos del alcohol o drogas no recetadas médicamente.\n- No se permite el acceso con armas blancas o de fuego.\n- No se permite el uso de dispositivos de grabación de video, sonido o fotografías dentro de las instalaciones. El monitoreo con cámaras de video solo es permitido por el área de seguridad de Axtel.\n- Todo visitante que ingrese a las áreas restringidas no podrá tomar fotografías o video, en el momento que se detecte la violación a esta política, el Oficial de Seguridad solicitará al visitante borre el material grabado o capturado.\n- En el acceso de Visitantes, proveedores o Carriers, no se permite la entrada con celular al Centro de Datos. Estos serán resguardados por el personal de seguridad en recepción al entrar al Centro de Datos, y serán devueltos a su salida. En caso de ser necesario ingresar con celular por ser herramienta de trabajo, su ingreso deberá ser solicitado vía correo electrónico al tramitar el acceso del personal y deberá ser autorizado previamente por el administrador del Centro de Datos y/o por el área de Ingenieros en Sitio.\n- No se permite el uso de memorias USB, discos duros portátiles u otros dispositivos de almacenamiento sin previa autorización.\n- No se permite el uso de gorras, lentes oscuros, pantalones cortos, camisas sin manga, ni sandalias abiertas. La vestimenta deberá ser apropiada para un área de trabajo.\n- No está permitido el acceso de sustancias peligrosas o materiales inflamables. Las cajas de cartón, madera, plástico, hule espuma, etc. deberán permanecer fuera del cuarto de cómputo. En caso del uso de bolsas antiestáticas dentro del site, el cliente será responsable de retirarlas al termino de sus labores.\n- El personal de la Gerencia de Centros de Datos tiene la autoridad para ordenar que inmediatamente se retire cualquier material prohibido dentro delas áreas restringidas.\n- Bajo ninguna circunstancia podrán los clientes levantar losas de piso falso. Únicamente el personal de Ingenieros en Sitio de Axtel está autorizado para ello.\n- Queda estrictamente prohibido interferir con el funcionamiento de los sistemas de energía, aire acondicionado, detección de incendios o cualquier otro sistema de la infraestructura del centro de datos.\n- Queda estrictamente prohibido interferir con cualquier gabinete, rack, sistema o equipo en el centro de datos ajeno a los que el cliente tiene autorización para trabajar.\n- Queda estrictamente prohibido conectar, desconectar o remover cualquier cableado de energía en los PDU o circuitos de energía regulada de los racks o gabinetes sin la autorización del personal de operación en sitio de Axtel.\n- Queda estrictamente prohibido conectar, desconectar o remover cualquier cableado de datos sin la validación y autorización previa del personal de operación en sitio de Axtel.\n- Todo dispositivo electrónico que ingresen los clientes, tales como computadoras portátiles o teléfonos celulares, deberán ir conectados a las fuentes de energía no regulada que indique el personal de operación en sitio de Axtel.\n- No está permitido compartir información propietaria del centro de datos.\n- Todo personal que no se encuentre realizando algún trabajo dentro del centro de datos será acompañado a recepción para esperar el momento en que sea necesario su reingreso.\n- Ningún equipo podrá entrar o salir del centro de datos sin previa autorización y deberá ser documento de acuerdo al formato correspondiente.\n- No se permite realizar trabajos de perforación, soldadura, u otros que generen humedad o polvo dentro del Centro de Datos.\n- No se permitirá la entrada a menores de edad. Únicamente en casos excepcionales podrá solicitarse autorización para ello considerando que será realmente esporádico y que sea autorizado por el área de Recursos Humanos.\n- No podrán ingresar las personas que vayan a realizar un trabajo en las instalaciones si no se tiene un aviso previo de autorización con los nombres y el registro de afiliación al IMSS, aplica en el caso de contratistas y proveedores. Adicional a esto, deberán de presentarse con');
+	}
+
+/* //Initialize and open the dialog
+var dialog = new GlideDialogWindow("axtelPoliticas"); //Instantiate the dialog containing the UI Page 'add_comments_dialog'
+dialog.setTitle("Add Task Comments");
+dialog.render(); //Open the dialog*/
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-25 15:59:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ec903332f423010cd22808cf699b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Politicas y lineamientos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aceeso Salas" source="x_675990_aceeso_sa">aff85b692f423010cd22808cf699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</sys_scope>
+        <sys_update_name>sys_script_client_5ec903332f423010cd22808cf699b6d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-25 15:59:47</sys_updated_on>
+        <table>x_675990_aceeso_sa_solicitudes</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

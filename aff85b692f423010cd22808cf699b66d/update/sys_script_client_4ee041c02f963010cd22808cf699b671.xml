@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>numero_viistante</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>MaxVisitantes</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var tipoAuditoria = g_form.getValue('tipo_auditoria');
+	var numinv = g_form.getValue('numero_invitados');
+	var numvis = g_form.getValue('numero_viistante');
+	var maxPresencial=3;
+	var maxVirtual=10;
+	var created= g_form.getValue('sys_created_on');
+	
+	if(newValue != oldValue){
+		g_form.clearOptions('numero_invitados');
+	}
+		if (tipoAuditoria == 'Presencial') {
+		var invRestantes = maxPresencial - parseInt(numvis);
+		for(var i=0; i<=invRestantes; i++){
+			g_form.addOption('numero_invitados', i.toString(), i.toString());
+		}
+	}
+	if (tipoAuditoria == 'Virtual') {
+		var invRestantesV = maxVirtual - parseInt(numvis);
+		if (invRestantesV > 0) {
+			for(var j = 0; j <= invRestantesV; j ++){
+				g_form.addOption('numero_invitados', j.toString(), j.toString());
+			}
+		}
+	}
+	// If the form is loading and it is not a new record, set the u_what_needed value to the
+		// value from the record before it was loaded
+		if(isLoading && !g_form.isNewRecord()){
+			g_form.setValue('numero_invitados', numinv);
+			g_form.setValue('numero_viistante', numvis);
+		}
+	}
+	
+	
+	
+		]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-26 00:51:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ee041c02f963010cd22808cf699b671</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>MaxVisitantes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aceeso Salas" source="x_675990_aceeso_sa">aff85b692f423010cd22808cf699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</sys_scope>
+        <sys_update_name>sys_script_client_4ee041c02f963010cd22808cf699b671</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 23:36:17</sys_updated_on>
+        <table>x_675990_aceeso_sa_solicitudes</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

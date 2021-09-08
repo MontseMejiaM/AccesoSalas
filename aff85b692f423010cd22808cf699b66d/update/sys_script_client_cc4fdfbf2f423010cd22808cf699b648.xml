@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>UserCompany</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+    var ga = new GlideAjax('CheckUsersCompany');
+	ga.addParam("sysparm_name", "getUserCompany");
+	ga.getXML(analyzeResponse);
+	
+function analyzeResponse(response) { 
+       var answer = response.responseXML.documentElement.getAttribute("answer");
+       alert(answer);
+		g_form.setValue('idcompany', answer);
+
+       //you can do anything here with the form, the answer variable holds the name of the company
+		}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-25 17:45:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc4fdfbf2f423010cd22808cf699b648</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>UserCompany</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aceeso Salas" source="x_675990_aceeso_sa">aff85b692f423010cd22808cf699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</sys_scope>
+        <sys_update_name>sys_script_client_cc4fdfbf2f423010cd22808cf699b648</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-25 17:47:57</sys_updated_on>
+        <table>x_675990_aceeso_sa_solicitudes</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

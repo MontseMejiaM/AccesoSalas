@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Certificaciones</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Certificaciones</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">e56db0c76d2220100acb70b3534330b7</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 17:42:17</sys_created_on>
+        <sys_id>af15d1bf2f923010cd22808cf699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificaciones</sys_name>
+        <sys_package display_value="Aceeso Salas" source="x_675990_aceeso_sa">aff85b692f423010cd22808cf699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</sys_scope>
+        <sys_update_name>sys_wizard_answer_af15d1bf2f923010cd22808cf699b63d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 17:42:17</sys_updated_on>
+        <table/>
+        <target_url>x_675990_aceeso_sa_certificaciones.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</application>
+        <file_path/>
+        <instance_id>19d521efdb3608d09df22f17d4961968</instance_id>
+        <instance_name>dev100519</instance_name>
+        <name>sys_wizard_answer_af15d1bf2f923010cd22808cf699b63d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Certificaciones</answer><button_label/><dependent_value/><element/><name>Certificaciones</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">e56db0c76d2220100acb70b3534330b7</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-06 17:42:17</sys_created_on><sys_id>af15d1bf2f923010cd22808cf699b63d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Certificaciones</sys_name><sys_package display_value="Aceeso Salas" source="x_675990_aceeso_sa">aff85b692f423010cd22808cf699b66d</sys_package><sys_policy/><sys_scope display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</sys_scope><sys_update_name>sys_wizard_answer_af15d1bf2f923010cd22808cf699b63d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-06 17:42:17</sys_updated_on><table/><target_url>x_675990_aceeso_sa_certificaciones.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>139047521</payload_hash>
+        <record_name>Certificaciones</record_name>
+        <reverted_from/>
+        <source>023639b32f332010cd22808cf699b65e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-05-05 13:29:56</sys_created_on>
+        <sys_id>8c6b19b32fd23010cd22808cf699b6f5</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1793cb884200000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>4c6b19b3a6d2301003fb67f98c5aa4f5</update_guid>
+        <update_guid_history>4c6b19b3a6d2301003fb67f98c5aa4f5:139047521</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 18:09:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>ae657243a89f4fbc970da58e38918844</sys_id>
+        <sys_metadata>af15d1bf2f923010cd22808cf699b63d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificaciones</sys_name>
+        <sys_package display_value="Aceeso Salas" source="x_675990_aceeso_sa">aff85b692f423010cd22808cf699b66d</sys_package>
+        <sys_parent display_value="Task">e56db0c76d2220100acb70b3534330b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</sys_scope>
+        <sys_scope_delete display_value="">322338fd7cac496095b8b8b673294c40</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_af15d1bf2f923010cd22808cf699b63d</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_af15d1bf2f923010cd22808cf699b63d">8c6b19b32fd23010cd22808cf699b6f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 18:09:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

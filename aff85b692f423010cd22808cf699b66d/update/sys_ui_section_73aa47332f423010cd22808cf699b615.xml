@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="73aa47332f423010cd22808cf699b615" sys_domain="global" table="x_675990_aceeso_sa_solicitudes" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tipo_solicitud</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:41</sys_created_on>
+            <sys_id>20a091fb2f923010cd22808cf699b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tipo_auditoria</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:41</sys_created_on>
+            <sys_id>e4a091fb2f923010cd22808cf699b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hora_inicial</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:41</sys_created_on>
+            <sys_id>68a091fb2f923010cd22808cf699b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:41</sys_created_on>
+            <sys_id>e8a091fb2f923010cd22808cf699b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_history</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:41</sys_created_on>
+            <sys_id>6ca091fb2f923010cd22808cf699b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>upon_approval</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:41</sys_created_on>
+            <sys_id>eca091fb2f923010cd22808cf699b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_set</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:41</sys_created_on>
+            <sys_id>60a091fb2f923010cd22808cf699b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:41</sys_created_on>
+            <sys_id>e0a091fb2f923010cd22808cf699b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:42</sys_created_on>
+            <sys_id>64a091fb2f923010cd22808cf699b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:42</sys_created_on>
+            <sys_id>e4a091fb2f923010cd22808cf699b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>detalle_de_la_actividad</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:42</sys_created_on>
+            <sys_id>68a091fb2f923010cd22808cf699b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>idcompany</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:42</sys_created_on>
+            <sys_id>e8a091fb2f923010cd22808cf699b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>createddate</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:42</sys_created_on>
+            <sys_id>6ca091fb2f923010cd22808cf699b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 17:22:42</sys_created_on>
+            <sys_id>eca091fb2f923010cd22808cf699b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_675990_aceeso_sa_solicitudes" sys_domain="global" view="Default view">73aa47332f423010cd22808cf699b615</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 17:22:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_675990_aceeso_sa_solicitudes</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-25 16:00:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73aa47332f423010cd22808cf699b615</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_675990_aceeso_sa_solicitudes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Aceeso Salas" source="x_675990_aceeso_sa">aff85b692f423010cd22808cf699b66d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</sys_scope>
+            <sys_update_name>sys_ui_section_73aa47332f423010cd22808cf699b615</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-25 16:00:14</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

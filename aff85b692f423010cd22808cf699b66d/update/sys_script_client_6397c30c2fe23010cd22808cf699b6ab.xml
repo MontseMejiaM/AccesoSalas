@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate date on submit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+
+var oldDate= g_form.getValue('opened_at');
+var newDate= g_form.getValue('u_glide_date_time_1');
+	alert('OLD' + oldDate+'NEw'+ newDate);
+var startDate = new GlideDateTime(oldDate);
+var endDate = new GlideDateTime(newDate);
+	alert('startDate: ' + JSON.stringify(startDate)+' NEw: '+ JSON.stringify(endDate));
+var schedule = new GlideSchedule();
+	
+	
+
+schedule.load('5ed4aaf32f963010cd22808cf699b634'); // loads "8-5 weekdays" schedule. ('08fcd0830a0a0b2600079f56b1adb9ae' is sysid of the schedule.)
+var duration = schedule.duration(startDate, endDate);
+//gs.print(duration.getDurationValue()); // gets the elapsed time in schedule
+	alert(duration.getDurationValue());
+   alert('Star:'+ startDate +'End'+endDate);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-07 20:41:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6397c30c2fe23010cd22808cf699b6ab</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Validate date on submit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aceeso Salas" source="x_675990_aceeso_sa">aff85b692f423010cd22808cf699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</sys_scope>
+        <sys_update_name>sys_script_client_6397c30c2fe23010cd22808cf699b6ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-07 22:36:25</sys_updated_on>
+        <table>x_675990_aceeso_sa_solicitudes</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

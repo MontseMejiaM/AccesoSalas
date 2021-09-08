@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_675990_aceeso_sa.CheckSchedule</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CheckSchedule</name>
+        <script><![CDATA[var CheckSchedule= Class.create();
+CheckSchedule.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    isInSchedule : function() {
+		var selected_date = this.getParameter("sysparm_date");
+		gs.log("Date is "+selected_date);
+		var d = new GlideDateTime();
+		d.setDisplayValue(selected_date);
+                //mention your schedule sys_id here.
+		var schedule = new GlideSchedule('090eecae0a0a0b260077e1dfa71da828'); 
+		if(schedule.isInSchedule(d)) {
+			return true;
+		} else {
+			return false;
+		}
+	},
+    type: 'CheckSchedule'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-07 16:07:25</sys_created_on>
+        <sys_id>1d5e71882f223010cd22808cf699b62d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>CheckSchedule</sys_name>
+        <sys_package display_value="Aceeso Salas" source="x_675990_aceeso_sa">aff85b692f423010cd22808cf699b66d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Aceeso Salas">aff85b692f423010cd22808cf699b66d</sys_scope>
+        <sys_update_name>sys_script_include_1d5e71882f223010cd22808cf699b62d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-07 22:37:12</sys_updated_on>
+    </sys_script_include>
+</record_update>
